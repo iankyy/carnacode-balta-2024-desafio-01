@@ -1,3 +1,7 @@
+p {
+    margin: 0;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -5,11 +9,6 @@ html, body {
     justify-content: center;
     background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.center-everything {
-    margin: auto 0;
-    
 }
 
 body {
@@ -37,9 +36,8 @@ body {
     color: #BDBDBD;
 }
 
-.specs-inputs {
-     gap: 10px;
-     padding: 10px;
+.specs-inputs input {
+    border-radius: 2rem;
 }
 
 .calculus-content {
@@ -50,15 +48,47 @@ body {
 .action-buttons button {
     border-radius: 2rem;
     padding: 1rem 0;
-    margin-bottom: 1rem;
     border: 4px #45FEFE solid;
     cursor: pointer;
     font-weight: bold;
 }
 
 .action-buttons button:nth-of-type(1) {
-    background-color:#45FEFE  ;
+    background-color:#45FEFE ;
 }
 .action-buttons input:nth-of-type(1) {
     gap: 1rem;
 }
+
+.img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification-component {
+    width: 343px;
+}
+
+.items-center {
+    align-items: center;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  .width {
+    width: 100%;
+  }
+  .gap {
+    gap: 1rem;
+  }
+
+  bottom-styling {
+    border: 1px solid #45FEFE;
+  }
+
+
+
+  
